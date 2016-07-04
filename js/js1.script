@@ -1,0 +1,24 @@
+/************animation transition**********/
+
+$(document).ready(function() {
+
+   $("body").css("display", "none");
+   $("body").fadeIn(3700);
+   $("a.transition").click(function(event){
+   event.preventDefault();
+   $("body").fadeOut(3000, redirectPage);
+    });
+ function redirectPage() {
+  window.location = linkLocation;
+    }
+
+/************function animation sur la barre de navigation******************/
+$('a[href^="#"]').click(function(){
+	var the_id = $(this).attr("href");
+
+	$('html, body').animate({
+		scrollTop:$(the_id).offset().top
+	}, 'slow');
+	return false;
+  });
+});

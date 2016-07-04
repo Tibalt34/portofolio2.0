@@ -1,0 +1,92 @@
+/************intro**********/
+.intro{
+  height: 700px;
+}
+
+/*********header**********/
+
+@font-face {
+  font-family:'Geo';
+  src: url('Geo.ttf');
+}
+
+.moi{
+  background-color;
+  font-size: 40px;
+  font-family: 'Geo';
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-weight: bold;
+  top: -2em;
+}
+
+/**************article*********/
+@font-face {
+  font-family: 'Geo';
+  src: url('Geo.ttf');
+}
+
+div.monArticle{
+  margin-top:400px;
+  border:2px solid black;
+  padding-bottom: 100px;
+  padding-top:60px;
+  padding-left:34px;
+  padding-right:34px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/******mediaqueries*****/
+@media (min-width:1200px) {
+div .monArticle{
+margin-top:auto;
+           }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px){
+  div .monArticle{
+  margin:auto;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:991px){
+  div.monArticle{
+  margin:auto;
+  }
+}
+
+@media  (max-width:767px){
+  div.monArticle {
+    margin: auto;
+    overflow: hidden;
+
+  }
+}
+
+/**********************/
+.monArticle p{
+  font-family: 'Geo';
+  font-size: 23px;
+  text-align:center;
+}
+
+@media (max-width:767px){
+ .monArticle p{
+  margin:auto;
+  }
+}
+
+/****************img************/
+div .logo2{
+  margin-top: 60px;
+  text-align: center;
+  image:url("monnewlogo.png");
+}
+
+@media (max-width:767px){
+ div .logo2{
+   display:none;
+  }
+}
