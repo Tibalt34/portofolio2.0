@@ -104,7 +104,7 @@ padding-left: 5px;
 font-size:20px;
   }
 }
-/*********propriété sur les liens de ma barre de nav*********/
+/*********propriétés sur les liens de ma barre de nav*********/
 a:visited{
 color:black;
 }
@@ -129,15 +129,15 @@ a:link{
 }
 
 .moi{
-  background-color;
   font-size: 40px;
   font-family: 'Geo';
   text-align: center;
   padding-bottom: 30px;
   padding-top: 30px;
   font-weight: bold;
-  top: -2em;
 }
+
+/*******responsive xs titre intro*******/
 
 @media (max-width:767px){
   .moi {
@@ -168,6 +168,7 @@ div.monArticle{
   text-align:justify;
   padding-top: 5%;
 }
+/*********resp xs .monArticle****/
 
 @media (max-width:767px){
  .monArticle p{
@@ -201,7 +202,9 @@ div .logo2{
  border-bottom:2px solid #bf0417;
 }
 
-@media (max-width:768px){
+/****resp xs titrecv******/
+
+@media (max-width:767px){
   .titrecv{
 text-align: center;
 font-size:35px;
@@ -223,7 +226,8 @@ font-size:35px;
   font-weight:bold;
 }
 
-@media(max-width:768px){
+/******resp xs tformation***/
+@media(max-width:767px){
   .titreformation{
   text-align: center;
   }
@@ -235,7 +239,9 @@ font-size:35px;
   line-height : 1.5;
 }
 
-@media (max-width:768px) {
+/****resp p1*****/
+
+@media (max-width:767px) {
   .p1{
       font-size:20px;
   }
@@ -257,7 +263,9 @@ font-size:35px;
   font-weight:bold;
 }
 
-@media(max-width:768px){
+/*********resp titreexp*****/
+
+@media(max-width:767px){
   .titreexp{
     text-align: center;
   }
@@ -269,7 +277,9 @@ font-size:35px;
   line-height : 1.5;
 }
 
-@media (max-width:768px) {
+/*****resp xs p2****/
+
+@media (max-width:767px) {
   .p2{
       font-size:20px;
   }
@@ -290,8 +300,9 @@ font-size:35px;
   font-size:28px;
   font-weight:bold;
 }
+/*****resp xd titreloisirs****/
 
-@media(max-width:768px){
+@media(max-width:767px){
   .titreloisirs{
     text-align: center;
   }
@@ -302,8 +313,9 @@ font-size:35px;
   padding-top:15px;
   line-height : 1.5;
 }
+/******resp xd p3****/
 
-@media(max-width:768px){
+@media(max-width:767px){
   .p3{
   font-size:20px;
   text-align: left;
@@ -328,8 +340,9 @@ src: url('Geo.ttf');
   font-size: 80px;
   padding-top:40px;
 }
+/*resp xs mecontacter****/
 
-@media (max-width:768px){
+@media (max-width:767px){
 .mecontacter{
     font-size:45px;
   }
