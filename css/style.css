@@ -105,20 +105,22 @@ font-size:20px;
   }
 }
 /*********propriétés sur les liens de ma barre de nav*********/
-a:visited{
+
+ul li a:visited {
 color:black;
 }
 
-a:hover{
+
+ul li a:hover {
   background-color:white;
 }
 
-a:link{
+
+ul li a:link{
   text-decoration:none;
   background-color: #b3b3ff;
   padding:5px;
 }
-
 /************intro**********/
 
 /*********header**********/
