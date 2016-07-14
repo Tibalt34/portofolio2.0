@@ -37,7 +37,7 @@
   font-size: 65px;
 }
 
-/**********mediaquerie titre********/
+/**********mediaqueries titre*********/
 
 @media (max-width:767px){
 .titre{
@@ -46,6 +46,7 @@
 }
 /*********nav*********/
 
+
 @font-face {
   font-family: 'Geo';/*police Geo*/
   src: url('Geo.ttf');
@@ -53,15 +54,11 @@
 
 /*********propriétés sur les liens de ma barre de nav*********/
 
-.monNav{
-  padding-left: 30%;
-}
 
 /*********mediaqueries lg,md,sm,xs*******/
-
 @media (min-width:1200px){
-.monNav{
-  padding-left: 30%;
+  .monNav{
+   padding-left:27%;
   }
 }
 
@@ -71,11 +68,6 @@
   }
 }
 
-@media (max-width:991px) and (min-width:768px){
-.monNav{
-  padding-left: 22%;
-  }
-}
 
 @media (max-width:767px){
 .monNav{
@@ -92,6 +84,13 @@
   padding:1%;
   float: left;
 }
+
+@media (max-width:991px) and (min-width:768px){
+.monUl li a{
+  float:none;
+  text-align:center;
+   }
+  }
 
 @media (max-width:767px){
 .monUl li a{
@@ -170,143 +169,80 @@ div .logo2{
   padding-top: 10%;
 }
 
-/*********section mon cv********/
+/**********section projets*******/
 
-.monCV{
-  background-color: #97b1ba;
+.sectionProjet{
+  background-color:#97b1ba;
 }
 
-/*******titre*********/
-@font-face {
- font-family: 'Geo';
- src: url('Geo.ttf');
-}
-.titrecv{
- font-family: 'Geo';
- font-size:40px;
- font-weight:bold;
- padding-bottom: 15px;
- border-bottom:2px solid #bf0417;
+@font-face{
+  font-family:'Young';
+  src: url('Young.ttf');
 }
 
-/****resp xs titrecv******/
+.titreProjet{
+font-size: 40px;
+font-family:'Young';
+text-align: center;
+padding-top: 45px;
+}
 
-@media (max-width:767px){
-  .titrecv{
-  text-align: center;
+
+@font-face{
+  font-family:'Young';
+  src: url('Young.ttf');
+}
+
+.mesprojets{
+  padding-bottom:50px;
+}
+
+.Projet{
+ margin-left:440px;
+ margin-right:440px;
+ margin-top:130px;
+ font-family:'Young';
+ border:3px solid white;
+ text-decoration: none;
+ font-size: 35px;
+ text-align: center;
+ padding-top:20px;
+}
+
+@media (max-width:1199px)and (min-width:992px){
+.Projet{
+  margin-left:335px;
+  margin-right:335px;
+  }
+}
+
+@media (max-width:991px)and (min-width:768px){
+.Projet{
+  margin-left:270px;
+  margin-right:270px;
   font-size:35px;
   }
 }
-/******* section formation*********/
-@font-face {
- font-family: 'Geo';
- src: url('Geo.ttf');
-}
-.formation{
- font-family: 'Geo';
- margin-top:20px;
- padding-top:30px;
-}
 
-.titreformation{
-  font-size:28px;
-  font-weight:bold;
-}
-
-/******resp xs tformation***/
-@media(max-width:767px){
-  .titreformation{
-  text-align: center;
+@media (max-width:991px)and (min-width:768px){
+.Projet{
+  margin-left:270px;
+  margin-right:270px;
+  font-size:35px;
   }
 }
 
-.p1{
-  font-size:22px;
-  padding-top: 10px;
-  line-height : 1.5;
-}
-
-/****resp p1*****/
-
-@media (max-width:767px) {
-  .p1{
-      font-size:20px;
-  }
-}
-/*******section experience pro*********/
-@font-face{
- font-family: 'Geo';
- src: url('Geo.ttf');
-}
-
-.experiences{
- font-family: 'Geo';
- margin-top:20px;
- padding-top:30px;
-}
-
-.titreexp {
-  font-size:28px;
-  font-weight:bold;
-}
-
-/*********resp titreexp*****/
-
-@media(max-width:767px){
-  .titreexp{
-    text-align: center;
+@media (max-width:768px){
+.Projet{
+  margin-left:80px;
+  margin-right:80px;
+  font-size:30px;
   }
 }
 
-.p2{
-  font-size:22px;
-  padding-top:15px;
-  line-height : 1.5;
-}
-
-/*****resp xs p2****/
-
-@media (max-width:767px) {
-  .p2{
-      font-size:20px;
-  }
-}
-/******* section loisirs*********/
-@font-face {
- font-family: 'Geo';
- src: url('Geo.ttf');
-}
-
-.loisirs{
- font-family: 'Geo';
- margin-top:20px;
- padding-top:30px;
-}
-
-.titreloisirs{
-  font-size:28px;
-  font-weight:bold;
-}
-/*****resp xs titreloisirs****/
-
-@media(max-width:767px){
-  .titreloisirs{
-    text-align: center;
-  }
-}
-
-.p3{
-  font-size:22px;
-  padding-top:15px;
-  line-height : 1.5;
-}
-/******resp xs p3****/
-
-@media(max-width:767px){
-  .p3{
-  font-size:20px;
-  text-align: left;
-  }
+a{
+color:white;
+text-decoration:none;
 }
 
 /***********partie contact******/
