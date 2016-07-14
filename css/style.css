@@ -352,7 +352,14 @@ src: url('Young.ttf');
 
 @media (max-width:991px) and (min-width:768px){
   .lk{
+    text-align:center;
+    padding-left:0;
+  }
+}
 
-    padding-left:23%;
+@media (max-width:768px){
+  .lk{
+    text-align:center;
+    padding-left:0;  
   }
 }
