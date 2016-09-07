@@ -1,9 +1,9 @@
 /************animation transition : apparition progressive du portofolio**********/
 
-$(document).ready(function() {
+$( document ).ready(function() {
 
    $("body").css("display", "none");
-   $("body").fadeIn(3700);
+   $("body").fadeIn(3600);
    $("a.transition").click(function(event){
    event.preventDefault();
    $("body").fadeOut(2000, redirectPage);
