@@ -13,6 +13,7 @@ $( document ).ready(function() {
     }
 
 /************function animation de slider sur la barre de navigation******************/
+
 $('a[href^="#"]').click(function(){
 	var the_id = $(this).attr("href");
 
