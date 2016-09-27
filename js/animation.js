@@ -23,3 +23,10 @@ $('a[href^="#"]').click(function(){
 	return false;
   });
 });
+
+/**************animation logo scrolltop***************/
+$('document').ready(function(){
+    $("#divscroll").click(function(){
+        $(this).hide();
+    });
+});
