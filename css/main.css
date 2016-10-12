@@ -302,12 +302,25 @@ src: url('Young.ttf');
     font-size:45px;
   }
 }
-/*******scrolltop********/
+/*******logo scrolltop********/
 #divscroll{
   position:fixed;
   bottom:60px;
   left:10px;
 }
+
+.scrolltop{
+  width:60px;
+  height:60px;
+}
+
+@media (max-width:767px){
+.scrolltop{
+  display:none;
+  }
+}
+
+
 /***********adresse**********/
 
 @font-face {
