@@ -1,15 +1,17 @@
+/****container général****/
 
 #container{
   width:100%;
 }
 
-/********presentation****************/
+/********section presentation************/
+
 .presentation{
   background-image:url("../pic/bandeau1.jpg"); /*chemin de mon image en fond de page*/
   background-size: cover;/*image en fond page d'accueil*/
-
 }
-/***********img**********/
+
+/***********img logo1**********/
 
 .logo1{
   text-align: center;/*aligne l'élément*/
@@ -20,7 +22,8 @@
   width: 150px;/*largeur de 150px*/
 }
 
-/**************header**************/
+/***********header*************/
+
 @font-face { /*propriété pour une police personnalisée*/
   font-family:'Young';/*police young*/
   src: url('Young.ttf');
@@ -36,25 +39,22 @@
   font-size:65px;/*taille du titre*/
 }
 
-/**********mediaqueries titre*********/
+/**********mediaqueries xs titre*********/
 
 @media (max-width:767px){
 .titre{
     font-size: 40px;
       }
 }
-/*************nav************/
-
+/**********police Geo titre************/
 
 @font-face {
   font-family: 'Geo';/*police Geo*/
   src: url('Geo.ttf');
 }
 
-/*********propriétés sur les liens de ma barre de nav*********/
+/*********mediaqueries lg,md,sm,xs barre de nav*******/
 
-
-/*********mediaqueries lg,md,sm,xs*******/
 @media (min-width:1200px){
   .monNav{
    text-align:center;
@@ -102,7 +102,7 @@ li a:hover{
  background-color:white;
 }
 
-/************intro**********/
+/*********section intro**********/
 
 /*********header**********/
 
@@ -121,13 +121,14 @@ li a:hover{
 
 /*******responsive xs titre intro*******/
 
-@media (max-width:767px){
+@media (max-width:768px){
   .moi {
     font-size: 35px;
   }
 }
 
-/**************article*********/
+/********article*********/
+
 @font-face {
   font-family: 'Geo';
   src: url('Geo.ttf');
@@ -150,15 +151,16 @@ div.monArticle{
   padding-top: 5%;
 }
 
-/*********resp xs .monArticle****/
+/****resp xs .monArticle****/
 
-@media (max-width:767px){
+@media (max-width:768px){
  .monArticle p{
   font-size: 20px;
   }
 }
 
-/***********lien cv pdf*********/
+/**********lien cv pdf*********/
+
 @font-face{
   font-family:'Young';
   src: url('Young.ttf');
@@ -174,7 +176,7 @@ div.monArticle{
    color:black;
  }
 
-/****************img************/
+/*********img logo2**********/
 
 div.logo2{
   margin-top:60px;
@@ -183,7 +185,7 @@ div.logo2{
   padding-bottom: 3%;
 }
 
-/**********section projets*******/
+/*******section projets*******/
 
 .sectionProjet{
   background-color:#97b1ba;
@@ -220,34 +222,13 @@ padding-top: 45px;
  padding-top:10px;
 }
 
-
-/***mediaqueries classe Projet***/
-
-
-@media (max-width:991px)and (min-width:768px){
-.Projet{
-  font-size:35px;
-  }
-}
-
-@media (max-width:991px)and (min-width:768px){
-.Projet{
-  font-size:35px;
-  }
-}
-
-@media (max-width:768px){
-.Projet{
-  font-size:30px;
-  }
-}
-
 a{
 color:white;
 text-decoration:none;
 }
 
-/***********partie contact******/
+/*******section contact******/
+
 .contact{
   background-color: #edf1f2;
 }
@@ -265,14 +246,17 @@ src: url('Young.ttf');
   font-size: 40px;
   padding-top:45px;
 }
-/*resp xs mecontacter****/
 
-@media (max-width:767px){
+/***resp xs mecontacter****/
+
+@media (max-width:768px){
 .mecontacter{
     font-size:45px;
   }
 }
+
 /*******logo scrolltop********/
+
 #divscroll{
   position:fixed;
   bottom:60px;
@@ -284,12 +268,13 @@ src: url('Young.ttf');
   height:60px;
 }
 
-@media (max-width:767px){
+/******media 768px sur logo scrolltop****/
+
+@media (max-width:768px){
 .scrolltop{
-  display:none;
+  opacity: 0.4;
   }
 }
-
 
 /***********adresse**********/
 
@@ -323,16 +308,15 @@ src: url('Young.ttf');
 }
 
 .photocontact{
-width:120px;
 margin-left: 30px;
 margin-right:30px;
 }
 
-/************mediaqueries #liens tous les formats******/
+/******media 768px sur logo liens ******/
+
 @media (max-width:768px){
 
 .photocontact{
-    width: 120px;
     margin-left: 15px;
     margin-right: 15px;
  }
