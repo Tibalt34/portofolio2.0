@@ -1,17 +1,17 @@
-/****container général****/
+/**container général**/
 
 #container{
   width:100%;
 }
 
-/********section presentation************/
+/**section presentation**/
 
 .presentation{
   background-image:url("../pic/bandeau1.jpg"); /*chemin de mon image en fond de page*/
   background-size: cover;/*image en fond page d'accueil*/
 }
 
-/***********img logo1**********/
+/**img logo1**/
 
 .logo1{
   text-align: center;/*aligne l'élément*/
@@ -22,7 +22,7 @@
   width: 150px;/*largeur de 150px*/
 }
 
-/***********header*************/
+/**header**/
 
 @font-face { /*propriété pour une police personnalisée*/
   font-family:'Young';/*police young*/
@@ -39,21 +39,21 @@
   font-size:65px;/*taille du titre*/
 }
 
-/**********mediaqueries xs titre*********/
+/**mediaqueries xs titre**/
 
 @media (max-width:767px){
 .titre{
     font-size: 40px;
       }
 }
-/**********police Geo titre************/
+/**police Geo titre**/
 
 @font-face {
   font-family: 'Geo';/*police Geo*/
   src: url('Geo.ttf');
 }
 
-/*********mediaqueries lg,md,sm,xs barre de nav*******/
+/**mediaqueries lg,md,sm,xs barre de nav**/
 
 @media (min-width:1200px){
   .monNav{
@@ -102,9 +102,9 @@ li a:hover{
  background-color:white;
 }
 
-/*********section intro**********/
+/**section intro**/
 
-/*********header**********/
+/**header**/
 
 @font-face {
   font-family:'Geo';
@@ -119,7 +119,7 @@ li a:hover{
   font-weight: bold;
 }
 
-/*******responsive xs titre intro*******/
+/**responsive xs titre intro**/
 
 @media (max-width:768px){
   .moi {
@@ -127,7 +127,7 @@ li a:hover{
   }
 }
 
-/********article*********/
+/**article**/
 
 @font-face {
   font-family: 'Geo';
@@ -151,7 +151,7 @@ div.monArticle{
   padding-top: 5%;
 }
 
-/****resp xs .monArticle****/
+/**resp xs .monArticle**/
 
 @media (max-width:768px){
  .monArticle p{
@@ -159,7 +159,7 @@ div.monArticle{
   }
 }
 
-/**********lien cv pdf*********/
+/**lien cv pdf**/
 
 @font-face{
   font-family:'Young';
@@ -176,7 +176,7 @@ div.monArticle{
    color:black;
  }
 
-/*********img logo2**********/
+/**img logo2**/
 
 div.logo2{
   margin-top:60px;
@@ -185,7 +185,7 @@ div.logo2{
   padding-bottom: 3%;
 }
 
-/*******section projets*******/
+/**section projets**/
 
 .sectionProjet{
   background-color:#97b1ba;
@@ -227,13 +227,13 @@ color:white;
 text-decoration:none;
 }
 
-/*******section contact******/
+/**section contact**/
 
 .contact{
   background-color: #edf1f2;
 }
 
-/*********titre contacter*******/
+/**titre contacter**/
 
 @font-face {
 font-family: 'Young';
@@ -247,7 +247,7 @@ src: url('Young.ttf');
   padding-top:45px;
 }
 
-/***resp xs mecontacter****/
+/**resp xs mecontacter**/
 
 @media (max-width:768px){
 .mecontacter{
@@ -255,7 +255,7 @@ src: url('Young.ttf');
   }
 }
 
-/*******logo scrolltop********/
+/**logo scrolltop**/
 
 #divscroll{
   position:fixed;
@@ -268,7 +268,7 @@ src: url('Young.ttf');
   height:60px;
 }
 
-/******media 768px sur logo scrolltop****/
+/**media 768px sur logo scrolltop**/
 
 @media (max-width:768px){
 .scrolltop{
@@ -276,7 +276,7 @@ src: url('Young.ttf');
   }
 }
 
-/***********adresse**********/
+/**adresse**/
 
 @font-face {
   font-family:'Geo';
@@ -295,7 +295,7 @@ src: url('Young.ttf');
   color: black;
 }
 
-/***********liens**********/
+/**liens**/
 
 #mesliens{
   text-align: center;
@@ -312,7 +312,7 @@ margin-left: 30px;
 margin-right:30px;
 }
 
-/******media 768px sur logo liens ******/
+/**media 768px sur logo liens **/
 
 @media (max-width:768px){
 
